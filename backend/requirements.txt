@@ -98,7 +98,7 @@ Twisted==19.2.1
 txaio==18.8.1
 ujson==1.35
 unicorn==1.0.1
-urllib3==1.24.1
+urllib3==1.24.2
 uvicorn==0.8.4
 virtualenv==16.4.3
 websockets==7.0
