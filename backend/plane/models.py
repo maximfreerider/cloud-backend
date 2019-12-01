@@ -24,13 +24,13 @@ import datetime
 
 
 class Flight(models.Model):
-    name = models.CharField(max_length=15)  # рейс
-    come_from = models.CharField(max_length=15)
-    come_to = models.CharField(max_length=15)
-    avia_company = models.CharField(max_length=15)
-    speed = models.FloatField()
-    registration_info = models.CharField(max_length=15)
-    flight_distance = models.IntegerField()
+    name = models.CharField(max_length=15, null=True, blank=True)  # рейс
+    come_from = models.CharField(max_length=15, null=True, blank=True)
+    come_to = models.CharField(max_length=15, null=True, blank=True)
+    avia_company = models.CharField(max_length=15, null=True, blank=True)
+    speed = models.FloatField(null=True, blank=True)
+    registration_info = models.CharField(max_length=15, null=True, blank=True)
+    flight_distance = models.IntegerField(null=True, blank=True)
 
 
 class History(models.Model):

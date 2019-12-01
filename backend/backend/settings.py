@@ -95,6 +95,16 @@ DATABASES = {
     }
 }
 
+DATABASES['default']['HOST'] = '/cloudsql/clouds-258120:us-central1:cloud-db'
+if os.getenv('GAE_INSTANCE'):
+    pass
+else:
+    DATABASES['default']['HOST'] = '127.0.0.1'
+    DATABASES['default']['PORT'] = '5432'
+
+# cloud_sql_proxy_x64.exe -instances="clouds-258120:us-central1:cloud-db"=tcp:3307
+# ./cloud_sql_proxy -instances="clouds-258120:us-central1:cloud-db"=tcp:5432
+
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
