@@ -82,7 +82,7 @@ PyTweening==1.0.3
 pytz==2018.9
 pywin32==224
 pywin32-ctypes==0.2.0
-PyYAML==5.1.1
+PyYAML==5.4
 requests==2.21.0
 requests-file==1.4.3
 requests-oauthlib==1.2.0
