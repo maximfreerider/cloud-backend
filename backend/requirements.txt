@@ -59,7 +59,7 @@ Pillow==6.0.0
 pluggy==0.9.0
 promise==2.2.1
 psycopg2==2.8.4
-py==1.8.0
+py==1.10.0
 PyAutoGUI==0.9.42
 pycparser==2.19
 pydantic==0.30
