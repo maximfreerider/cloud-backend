@@ -31,7 +31,7 @@ djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==4.1.0
 dnspython==1.16.0
 email-validator==1.0.4
-fastapi==0.33.0
+fastapi==0.65.2
 filelock==3.0.10
 Flask==1.0.3
 flask-marshmallow==0.10.1
