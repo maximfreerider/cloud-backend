@@ -103,6 +103,6 @@ unicorn==1.0.1
 urllib3==1.24.1
 uvicorn==0.8.4
 virtualenv==16.4.3
-websockets==7.0
+websockets==9.1
 Werkzeug==0.15.4
 zope.interface==4.6.0
