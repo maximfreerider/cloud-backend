@@ -98,7 +98,7 @@ toml==0.10.0
 tox==3.9.0
 Twisted==19.2.1
 txaio==18.8.1
-ujson==1.35
+ujson==5.4.0
 unicorn==1.0.1
 urllib3==1.24.1
 uvicorn==0.8.4
