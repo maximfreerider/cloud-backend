@@ -96,7 +96,7 @@ telebot==0.0.3
 tldextract==2.2.1
 toml==0.10.0
 tox==3.9.0
-Twisted==19.2.1
+Twisted==22.10.0
 txaio==18.8.1
 ujson==1.35
 unicorn==1.0.1
